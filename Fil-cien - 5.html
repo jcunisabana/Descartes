@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css" >
+						<link rel="stylesheet" href="css/estilo.css">
+
+
+		<!-- Printing and PDF exports -->
+<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+
+
+
+<section  data-background-image ="img/aquiles.jpg"><h2 class="highlightred">Deducción e Inducción</h2>     <div class=" flexbox-container">
+
+	<div class="nombre highlightred">Juan Camilo Espejo Serna <br>Universidad de la Sabana</div>       <aside class="notes">NOTAS
+	</aside>
+
+			 </div>
+
+
+
+
+</section>
+
+
+<section><h2>Orden del día</h2>
+	<ol>
+<li class="fragment fade-up">Argumentos
+</li>
+<li class="fragment fade-up">Argumentos deductivos
+</li>
+<li class="fragment fade-up">Un problema para la deducción
+</li>
+<li class="fragment fade-up">Falacias deductivas</li>
+
+<li class="fragment fade-up">Argumentos inductivos
+</li>
+<li class="fragment fade-up">Falacias inductivas</li>
+
+<li class="fragment fade-up">Un problema para la inducción</li>
+
+	</ol>
+
+</section>
+
+
+	<section  data-background-image ="img/frege.jpg"><h1 class="highlightred">Argumentos</h1>     </section>
+
+<section><h2>Definición de un argumento</h2>
+	<ol>
+	<li class=" fragment">Conjunto de proposiciones donde una de ellas (la conclusión) está 'basada en' las demás (las premisas) </li>
+<li class=" fragment">Acto de habla en el que se tiene la pretensión de que una proposición (lo que se concluye) 'esté basada en' otras proposiciones (las premisas)</li>
+	<li class=" fragment">Acto de habla en el que se tiene la pretensión de que un conjunto de proposiciones no-vacío (lo que se concluye) 'esté basado en' otro conjunto de proposiciones (las premisas)</li>
+	</ol>
+
+		</section>
+
+
+	<section><h2>El 'buen' argumento</h2>
+		<p style="color:grey; font-size:90%" class="fragment">(Las proposiciones son 'verdaderas' o 'falsas';  los argumentos no.)</p>
+
+	<div class="fragment doscuadros"><h4>Argumento válido</h4>
+	<p >Las premisas 'apoyan' la conclusión  (corrección formal o, en inglés, <i>validity</i>)</p></div>
+
+	<div class="fragment doscuadros"><h4>Argumento 'consistente'</h4>Las premisas son verdaderas y 'apoyan' la conclusión (corrección material o, en inglés, <i>soundness</i>)</div>
+
+		</section>
+
+
+	<section  data-background-image ="img/frege.jpg"><h1 class="highlightred">Argumentos deductivos</h1>     </section>
+
+	<section><h4>Diferencia entre argumentos deductivos y argumentos inductivos </h4>
+
+		<div class="trescuadros fragment">Los unos van de  particular a general; los otros de general a particular</div>
+		<div class="trescuadros fragment">Los unos aumentan nuestro conocimiento; los otros no</div>
+<div class="trescuadros fragment">La naturaleza del apoyo pretendido.  </div>
+
+		</section>
+		<section>La diferencia entre argumentos consiste en una diferencia en el tipo de apoyo que las premisas dan a la conclusión</section>
+
+
+	<section>
+<div class=""><h3>La naturaleza del apoyo pretendido</h3></div>
+		<div class="doscuadros fragment"><h4>Deducción</h4><p>La verdad de las premisas <b>garantiza</b> la verdad de la conclusión</p></div>
+		<div class="doscuadros fragment"><h4>Inducción</h4><p>La verdad de las premisas <b>hace probable</b> la verdad de la conclusión</p></div>
+	</section>
+
+<section>
+	<div class="doscuadros">
+<h4>Ejemplo de argumento deductivo:</h4>	<p  >
+ P entonces Q<br>P<br>--------------------------<br>Q</p>
+
+</div>
+	<div class="doscuadros">
+<h4>Ejemplo de argumento inductivo:</h4>	<p >Se sostiene el marcador <br>
+Se suelta el marcador<br>------------------------------------<br>El marcador cae al suelo</p>
+</div>
+
+	</section>
+	<section  data-background-image ="img/aquiles.jpg"><h2 class="highlightred">Un problema para la deducción</h2>     </section>
+
+	<section  data-background-image = "img/zeno-aquilles.png"  data-background-size= "contain">    <p class="highlightred fragment">¿Cómo es el movimiento posible?</p> </section>
+
+<section  data-background-image = "img/triangulo.jpeg"  data-background-size= "contain">
+<div class="trescuadros"><p style="text-align:left;font-size:90%" >
+Dos cosas iguales a una tercera son iguales entre sí.
+<br> Los dos lados de este triángulo son iguales a un tercero.
+<br>------<br>
+Los dos lados de este triángulo son iguales entre sí.
+</p>
+		</div>
+
+	</section>
+
+
+
+	<section>
+<div class="trescuadros fragment"><p style="text-align:left;font-size:90%" >
+A) Dos cosas iguales a una tercera son iguales entre sí
+<br> B) Los dos lados de este triángulo son iguales a un tercero
+<br>------<br>
+Z) Los dos lados de este triángulo son iguales entre sí
+</p>
+		</div>
+		<div class="trescuadros fragment"><p style="text-align:left; font-size:90%">
+A) Dos cosas iguales a una tercera son iguales entre sí
+<br> B) Los dos lados de este triángulo son iguales a un tercero
+<br>
+C) Si A y B son verdaderas, Z debe ser verdadera <br>------<br>
+
+Z) Los dos lados de este triángulo son iguales entre sí
+</p>
+		</div>
+<div class="trescuadros fragment"><p style="text-align:left; font-size:90%">
+A) Dos cosas iguales a una tercera son iguales entre sí
+<br> B) Los dos lados de este triángulo son iguales a un tercero
+<br>
+C) Si A y B son verdaderas, Z debe ser verdadera <br>
+
+D) Si A, B y C son verdaderas, Z debe ser verdadera <br>------<br>
+
+Z) Los dos lados de este triángulo son iguales entre sí
+</p>
+		</div>
+	</section>
+
+	<section  data-background-image = "img/triangulo.jpeg"  data-background-size= "contain">    <p class="highlightred ">¿Cómo son los argumentos deductivos posibles?</p> </section>
+
+
+
+
+		<section  data-background-image = "img/falaciadeductiva.jpg"  data-background-size= "contain">    <h2 class="highlightred ">Falacias deductivas</h2> </section>
+
+<section>
+<h4>Falacias deductivas:</h4>
+<p style="text-align:left;">Se pretende que la verdad de las premisas asegure la verdad de la conclusión pero puede ser el caso que las premisas sean verdaderas y la conclusión falsa.</p></section>
+
+	<section  data-background-image = "img/falaciadeductiva.jpg"  data-background-size= "contain">   <p class="highlightred "> <i>Argumentum ad verecundiam</i></p>
+</section>
+
+
+	<section  data-background-image = "img/bayesiantheorem.jpg"  data-background-size= "contain">   <p><br><br><br><br><br><br><br><br><br></p>  <h2 class="highlightred ">Argumentos inductivos</h2> </section>
+
+	<section><p style="text-align:left;">Se pretende que la verdad de las premisas haga más probable la verdad de la conclusión.</p> </section>
+<section>
+	<div class="doscuadros"> <p></p>
+</div>
+	<div class="doscuadros">
+<h4>Ejemplo de argumento inductivo:</h4>	<p >Se sostiene el marcador <br>
+Se suelta el marcador<br>------------------------------------<br>El marcador cae al suelo</p>
+</div>
+
+	</section>
+
+	<section>
+
+	<h3>P(H|E) = P(E|H) × P(H) &#247 P(E)</h3>
+
+<p class="doscuadros" style="text-align:left;">Probabilidad de H respecto a E es igual a la probabilidad de E respecto a H multiplicada por la probabilidad de H dividida por la probabilidad de E </p>
+	</section>
+
+
+	<section  data-background-image = "img/castor.png"  data-background-size= "contain">  <p><br><br><br></p>  <h2 class="highlightred ">Falacias inductivas</h2> </section>
+
+
+
+
+<section>
+<h4>Falacias inductivas:</h4>
+<p style="text-align:left;">Se pretende que la verdad de las premisas haga más probable la verdad de la conclusión pero las premisas no hacen más probable la verdad de la conclusión.</p></section>
+<section  data-background-image = "img/castor.png"  data-background-size= "contain">  <p><br><br><br></p>  <p class="highlightred "><i>Cum hoc ergo propter hoc</i></p> </section>
+
+	<section  data-background-image ="img/hume.jpg"><p><br><br></p><h2 class="highlightred">Un problema para la inducción</h2>     </section>
+	<section>
+
+	<p >Todos los ganzos que han sido observados son blancos<br>
+Esto es un ganzo<br>-----------------------------------------------------------------<br>Esto es blanco</p>
+		<h4>¿Qué garantiza que esto, <br>que no había sido observado antes, sea blanco?</h4>
+	</section>
+
+
+<section data-transition="fade-in" data-background="#009933" data-background-transition="zoom">
+<h3>Para la próxima clase</h3>
+	<ul>
+	<li>Suppe, Frederick (1979) <i>La estructura de las teorías científicas</i>. Editora Nacional: Madrid, España. Partes I, II (&#9733) y III</li>
+	</ul>
+				</section>
+
+
+
+
+			</div>
+		</div>
+<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+
+
+		</script>
+
+	</body>
+</html>
